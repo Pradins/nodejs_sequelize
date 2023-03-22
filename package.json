@@ -1,0 +1,24 @@
+{
+  "name": "deel-task",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "express": "4.17.1",
+    "sequelize": "6.29.0",
+    "sqlite3": "^5.1.4"
+  },
+  "scripts": {
+    "start": "nodemon ./src/server.js",
+    "seed": "node ./scripts/seedDb.js"
+  },
+  "devDependencies": {
+    "concurrently": "4.1.0",
+    "eslint": "8.22.0",
+    "nodemon": "1.19.1"
+  },
+  "engines": {
+    "node": ">=10.16.3"
+  },
+  "engineStrict": true
+}
